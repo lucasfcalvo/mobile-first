@@ -1,9 +1,10 @@
+import { HeaderBatatacoin } from "./components/HeaderBatatacoin"
 
 export const App = () => {
 
   return (
     <>
-      <header>header</header>
+     <HeaderBatatacoin/>
       <main>
         <section>seccion 1</section>
         <section>seccion 2</section>

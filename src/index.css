@@ -27,3 +27,81 @@ html {
   font-size: 63%;
   font-family: "DM Sans", sans-serif;
 }
+header {
+  background: linear-gradient(
+    207.8deg,
+    #201e1c 16.69%,
+    var(--secondary-blue) 100%
+  );
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 320px;
+  height: 334px;
+  text-align: center;
+}
+
+header img {
+  width: 180px;
+  height: 34px;
+  /* margin-top: 60px; */
+}
+
+.header--title-container {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  height: 218px;
+  margin-top: 30px;
+  text-align: center;
+  align-self: center;
+}
+
+.header--title-container h1 {
+  font-size: 2.3rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+  color: var(--just-white);
+}
+
+.header--title-container p {
+  margin-top: 25px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--soft-orange);
+}
+
+.header--button {
+  position: absolute;
+  left: calc(50% - 123px);
+  top: 270px;
+  display: block;
+  margin-top: 35px;
+  padding: 12px;
+  width: 249px;
+  height: 48px;
+  background-color: var(--grey);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  box-shadow: 0px 6px 18px rgba(89, 73, 30, 0.16);
+  border: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.header--button span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 6px;
+  background-image: url("./assets/icons/down-arrow.svg");
+}
